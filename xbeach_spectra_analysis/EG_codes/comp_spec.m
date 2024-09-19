@@ -7,7 +7,7 @@ function [f,Snn,A,ff,Af] = comp_spec(ts,sfreq)
 %%
 % initialize spectrum
 [n m] = size(ts);
-
+ 
 % required number of samples
 nr = 2^(nextpow2(n));
 
